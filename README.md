@@ -7,6 +7,7 @@ setwd('C:/Users/sirwit/Documents/Coursera-R')
 ## and then variable "s" as a null
 ## then replaced every reference to "mean" by "solve"
 
+
 makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
   s <- NULL
   set <- function(y) {
